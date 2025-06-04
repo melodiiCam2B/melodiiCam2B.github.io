@@ -1,0 +1,67 @@
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    text-align: center;
+    background-color: rgb(101, 3, 70);
+    border: 5px solid rgb(0, 0, 0);
+    margin: 25px;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;  
+    background-color: rgb(101, 3, 70);
+    border: 1px solid rgb(101, 3, 70);
+    margin: 1px;
+    padding: 1px;
+}
+.txtCntr {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.boxButton:hover {
+    background-color: rgb(191, 152, 178);
+    border: 2px solid rgb(190, 178, 187);
+    color: rgb(249, 211, 254);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+} 
+.boxButton {
+    font-family: melo;
+    background-color: rgb(189, 113, 165);
+    border: 2px solid rgb(199, 89, 164);
+    padding: 1px 1px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    color: rgb(247, 185, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.p{
+    margin: 2px 2px;
+    font-size: 15px;
+    font-family: melo;
+    color: rgb(177, 115, 243);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
