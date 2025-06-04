@@ -1,0 +1,162 @@
+.imgCenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box {
+    text-align: center;
+    background-color: rgb(101, 3, 70);
+    border: 5px solid rgb(0, 0, 0);
+    margin: 25px;
+    padding: 5px;
+}
+.header{
+    display: flex;
+    align-items: center;  
+    background-color: rgb(101, 3, 70);
+    border: 1px solid rgb(101, 3, 70);
+    margin: 1px;
+    padding: 1px;
+}
+.txtCntr {
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.boxButton:hover {
+    background-color: rgb(191, 152, 178);
+    border: 2px solid rgb(190, 178, 187);
+    color: rgb(249, 211, 254);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+} 
+.boxButton {
+    font-family: milkk;
+    background-color: rgb(189, 113, 165);
+    border: 2px solid rgb(199, 89, 164);
+    padding: 1px 1px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    color: rgb(247, 185, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+
+@font-face {
+    font-family: Acens;
+    src: url("/resources/fonts/Acens.ttf");
+}
+@font-face {
+    font-family: TypeWriter;
+    src: url("/resources/fonts/typewriter.ttf");
+}
+@font-face {
+    font-family: milkk;
+    src: url("/resources/fonts/milkk.otf");
+}
+button:hover {
+    background-color: rgb(144, 3, 99);
+    border: 2px solid rgb(144, 3, 99);
+    color: rgb(249, 211, 254);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+} 
+button {
+    font-family: milkk;
+    background-color: rgb(101, 3, 70);
+    border: 2px solid rgb(101, 3, 70);
+    padding: 2px 2px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: rgb(247, 185, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+body {
+    background-image: url("/resources/img/city.png");
+    background-color: #cccccc;
+    background-attachment: fixed;
+}
+h2{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Acens;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+h1{
+    font-size: 50px;
+    font-family: Acens;
+    color: rgb(255, 255, 255);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+p{
+    margin: 2px 2px;
+    font-size: 30px;
+    font-family: TypeWriter;
+    color: rgb(177, 115, 243);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+.p{
+    margin: 2px 2px;
+    font-size: 15px;
+    font-family: TypeWriter;
+    color: rgb(177, 115, 243);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+div{
+    font-size: 25px;
+    font-family: TypeWriter;
+    color: rgb(148, 65, 237);
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+li{
+    font-family: TypeWriter;
+    color:rgb(227, 47, 167);
+}
+ol li{
+    color:chocolate;
+}

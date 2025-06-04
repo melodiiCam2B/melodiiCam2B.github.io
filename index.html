@@ -1,32 +1,30 @@
-<!DOCTYPE html>
 <html>
-<style>
-.displayed {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-
-.city {
-    background-color: rgb(247, 164, 251);
-    color: rgb(207, 81, 194);
-    border: 2px solid rgb(83, 23, 78);
-    margin: 20px;
-    padding: 20px;}
-</style>
+    <audio id="alorsondanse" loop preload  hidden="true">
+        <source src="/resources/music/AlorsOnDanse.mp3" type="audio/mp3">
+    </audio>
     <head>
-        <title>no reason</title>
-        <link rel="icon" type="image/x-icon" href="img/sillyjelly.png">
+        <title>hihihaha</title>
+        <link rel="stylesheet" href="resources/style/style.css">
+        <link rel="icon" type="image/x-icon" href="resources/img/sillyjelly.png">
     </head>
-<body style="background-color:rgb(0, 0, 0);">
-<div>
-<img class="displayed" src="img/no.jpg" width="500" height="200">
-<div class="city">
-    <h2>Hi Guys</h2>
-    <p>it
-        s me
-    </p>
-    <p>gay bits</p>
-  </div>
-</div>
-</body>
+    <body>
+        <div class="header">
+            <button class="boxButton">goofy</button>
+            <button class="boxButton">iunno</button>
+        </div>
+        <h2 >ABOUT ME</h2>
+        <p>Hey! I'm a person!</p>
+        <p>I like music and shit</p>
+        <div class="box">
+            <h1>alotoftexthere</h1>
+            <p class="p">Button Plays a wip of a song I'm working on!</p>
+            <button onClick="clickMusicB();">Click Me!</button>
+        </div>
+    </body>
+    <script>
+        function clickMusicB(){
+            var _ = document.getElementById('alorsondanse');
+            _.play();
+        }
+    </script>
 </html>
