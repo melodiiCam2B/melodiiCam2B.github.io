@@ -3,8 +3,11 @@ function clickMusicB(){
     m.play();
 }
 function goHome(){
-      location.replace("https://melodiicam2b.github.io")
+      location.replace("https://melodiicam2b.github.io");
 }
 function getLink(){
-    location.replace("https://melodiicam2b.github.io/404")
+    location.replace("https://melodiicam2b.github.io/404");
+}
+function getfren(){
+    location.replace("https://melodiicam2b.github.io/boohoo");
 }
