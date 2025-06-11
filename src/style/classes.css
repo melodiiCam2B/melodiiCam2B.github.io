@@ -3,20 +3,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-.box {
+.TxTbox {
     text-align: center;
     background-color: rgb(101, 3, 70);
     border: 5px solid rgb(0, 0, 0);
     margin: 25px;
     padding: 5px;
-}
-.header{
-    display: flex;
-    align-items: center;  
-    background-color: rgb(101, 3, 70);
-    border: 1px solid rgb(101, 3, 70);
-    margin: 1px;
-    padding: 1px;
 }
 .txtCntr {
     text-align: center;
@@ -25,6 +17,7 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+  border-radius: 5px;
 }
 .boxButton:hover {
     background-color: rgb(191, 152, 178);
@@ -35,6 +28,7 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+  border-radius: 5px;
 } 
 .boxButton {
     font-family: melo;
@@ -53,6 +47,7 @@
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;  
+  border-radius: 5px;
 }
 .p{
     margin: 2px 2px;
