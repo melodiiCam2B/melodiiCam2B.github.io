@@ -15,8 +15,8 @@ function gethero(){
     location.replace("https://melodiicam2b.github.io/hero");
 }
 
-function button(action, sound){
-    var m = document.getElementById(sound?? sound : 'placeholder');
-    m.play();
+// function button(action, sound){
+//     var m = document.getElementById(sound?? sound : 'placeholder');
+//     m.play();
 
-}
+// }
