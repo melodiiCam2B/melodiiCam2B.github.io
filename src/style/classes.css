@@ -60,3 +60,69 @@
     -1px 1px 0 #000,
     1px 1px 0 #000;  
 }
+
+.altBox:hover {
+  background-color: rgb(96 139 168);
+  border: 4px solid rgb(96 139 168);
+  color: rgb(255, 255, 255);
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+  border-radius: 50px;
+} 
+.altBox {
+  font-family: Acens;
+  background-color: rgba(255, 255, 255, 0.216);
+  border: 4px solid rgb(96 139 168);
+  color: rgb(255, 255, 255);
+  padding: 1px 1px;
+  text-align: center;
+  font-size: 24px;
+  cursor: pointer;
+  width: 190px;
+  height: 50px;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;  
+  border-radius: 50px;
+}
+
+.altBoxFixed {
+  position: absolute;
+  top: 270px;
+}
+
+.altUnfixed {
+
+}
+
+.altLeft {
+  position: dynamic;
+  text-align: left;
+}
+
+.altRight {
+  position: dynamic;
+  text-align: right;
+}
+
+.altH2{
+  position: dynamic;
+  top: 20px;
+  text-align: left;
+  margin: 2px 2px;
+  font-size: 40px;
+  font-family: Acens;
+  color:  rgb(96 139 168);
+}
+
+.altP{
+  margin: 18px 5px;
+  font-size: 30px;
+  font-family: Acens;
+  color: rgb(255, 255, 255);
+}
